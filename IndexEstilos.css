@@ -282,7 +282,19 @@ html{
     top: 0;
     left: 0;
     height: 8px;
-    width: 100%;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+
 }
 
 
