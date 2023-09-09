@@ -23,5 +23,10 @@ html{
 
 }
 .contenedor-header header{
-    
+    max-width: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
 }
