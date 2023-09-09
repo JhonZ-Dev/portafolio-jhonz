@@ -17,16 +17,23 @@ html{
     background: #1e2326;
     position: fixed;
     width: 100%;
-    top:0px;
-    left: 0px;
+    top:0;
+    left: 0;
     z-index: 99;
 
 }
 .contenedor-header header{
-    max-width: 110px;
+    max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
+}
+
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1CB698;
+    text-decoration: none;
 }
