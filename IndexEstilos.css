@@ -262,6 +262,19 @@ html{
    font-family: 'Righteous';
    margin-bottom: 25px;
 }
+.skills .skill >span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
 
 
 
