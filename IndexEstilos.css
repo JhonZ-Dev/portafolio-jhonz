@@ -117,4 +117,9 @@ html{
     transition: .3s;
 }
 
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1CB698;
+    
+}
+
 
