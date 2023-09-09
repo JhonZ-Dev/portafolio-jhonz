@@ -155,7 +155,29 @@ html{
     display: flex;
 }
 .sobremi .fila .col{
-    width: 50px;
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{ 
+    display: inline-block;
+    color: #1CB698;
+    width: 13px;
+}
+.sobremi .fila .col ul li span{
+    background-color: #1CB698;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 
