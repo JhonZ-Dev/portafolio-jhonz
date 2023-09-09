@@ -253,6 +253,17 @@ html{
 .skills .fila{
     display: flex;
 }
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+   font-size: 28px;
+   font-family: 'Righteous';
+   margin-bottom: 25px;
+}
+
+
 
 
 
