@@ -37,3 +37,9 @@ html{
     color: #1CB698;
     text-decoration: none;
 }
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+    
+}
