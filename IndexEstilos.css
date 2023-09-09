@@ -119,7 +119,17 @@ html{
 
 .inicio .contenido-banner .redes a:hover{
     background-color: #1CB698;
+
+}
+
+
+/*ESTILOS - SOBRE MI*/
+.sobremi{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
     
 }
+
 
 
