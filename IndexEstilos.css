@@ -41,5 +41,15 @@ html{
 .contenedor-header header ul{
     display: flex;
     list-style: none;
-    
+
 }
+.contenedor-header header ul li a{
+  text-align: none;
+  color: #fff;
+  margin: 0 15px;
+  padding: 3px;
+  transition: .5s;
+  text-decoration: none;
+
+}
+
