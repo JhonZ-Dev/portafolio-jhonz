@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html{
+    /*Permitir deslizar cuando haga click en los links del menú*/
+    scroll-behavior: smooth;
+}
+/*Menu*/
+.contenedor-header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    z-index: 99;
+
+}
+.contenedor-header header{
+    
+}
