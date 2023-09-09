@@ -276,6 +276,14 @@ html{
     margin-bottom: 30px;
 }
 
+.skills .skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 100%;
+}
 
 
 
