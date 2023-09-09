@@ -229,7 +229,7 @@ html{
     z-index: -1;
     transition: 1s;
 }
-.sobremi button :hover .overlay{
+.sobremi button:hover .overlay{
     width: 100%;
 }
 
