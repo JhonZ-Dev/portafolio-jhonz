@@ -696,6 +696,18 @@ html {
     color: #fff;
     padding: 50px 0;
 }
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+    
+}
 
 
 
