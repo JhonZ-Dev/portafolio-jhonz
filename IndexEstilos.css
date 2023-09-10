@@ -621,7 +621,7 @@ html {
     width: 10px;
     border-radius: 50%;
     background-color: #1CB698;
-    float:right;
+    float:left;
     position: relative;
     bottom: 4px;
 }
