@@ -468,6 +468,17 @@ html{
     margin-left: 20px;
 }
 
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+
 
 
 
