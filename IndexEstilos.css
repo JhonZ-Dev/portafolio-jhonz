@@ -706,7 +706,15 @@ html {
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    
+
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
 }
 
 
