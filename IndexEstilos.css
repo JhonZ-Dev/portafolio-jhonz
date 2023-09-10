@@ -36,7 +36,7 @@ html {
 .contenedor-header header .logo a {
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #dd8d37;
     text-decoration: none;
 }
 
@@ -56,8 +56,8 @@ html {
 
 }
 
-.contenedor-header header nav ul li a :hover {
-    color: #1CB698;
+.contenedor-header header nav ul li a:hover {
+    color: #dd8d37;
 
 }
 
@@ -125,7 +125,7 @@ html {
 }
 
 .inicio .contenido-banner .redes a:hover {
-    background-color: #1CB698;
+    background-color: #dd8d37;
 
 }
 
@@ -158,7 +158,7 @@ html {
 }
 
 .sobremi .contenido-seccion p span {
-    color: #1CB698;
+    color: #dd8d37;
     font-weight: bold;
 }
 
@@ -186,7 +186,7 @@ html {
 
 .sobremi .fila .col ul li strong {
     display: inline-block;
-    color: #1CB698;
+    color: #dd8d37;
     width: 130px;
 }
 
@@ -217,7 +217,7 @@ html {
 }
 
 .sobremi .fila .col .contenedor-intereses .intereses:hover {
-    background-color: #1CB698;
+    background-color: #dd8d37;
 }
 
 .sobremi .fila .col .contenedor-intereses .intereses i {
@@ -245,7 +245,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #dd8d37;
     z-index: -1;
     transition: 1s;
 }
@@ -305,7 +305,7 @@ html {
 }
 
 .skills .skill .progreso {
-    background-color: #1CB698;
+    background-color: #dd8d37;
     position: absolute;
     top: 0;
     left: 0;
@@ -316,7 +316,7 @@ html {
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #dd8d37;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -560,7 +560,7 @@ html {
 }
 
 .curriculum .fila .item .casa {
-    color: #1CB698;
+    color: #dd8d37;
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -568,7 +568,7 @@ html {
 
 .curriculum .fila .item .fecha {
     display: block;
-    color: #1CB698;
+    color: #00bd19;
     margin-bottom: 10px;
 }
 
@@ -577,12 +577,12 @@ html {
 }
 
 .curriculum .fila .izq {
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #00bd19;
     margin-right: 20px;
 }
 
 .curriculum .fila .der {
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #00bd19;
     margin-left: 20px;
 }
 
