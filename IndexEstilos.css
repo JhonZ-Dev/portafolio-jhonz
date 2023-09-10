@@ -420,7 +420,7 @@ html{
     display: flex;
 }
 .curriculum .fila .col{
-    width: 49%;
+    /*width: 49%;*/
     padding: 0 20px;
 }
 .curriculum .fila .col h3{
