@@ -327,11 +327,12 @@
         <h2>PORTAFOLIO</h2>
         <div class="galeria">
             <div class="proyecto">
-                <img src="img/p1.jpg" alt="">
+                <img src="img/appmovil.png" alt="">
                 <div class="overlay">
                     <h3>Aplicación Móvil - New Plast</h3>
-                    <p>Fotografia 1</p>
+                    <p>Ver detalles <a href="#detalles">Click</a></p>
                 </div>
+                
             </div>
             <div class="proyecto">
                 <img src="img/p2.jpg" alt="">
@@ -370,6 +371,7 @@
             </div>
         </div>
     </div>
+    
 </section>
 
 <!-- Seccion de contacto -->
@@ -432,6 +434,22 @@
     </div>
 </footer>
     <script src="ScriptsIndex.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Oculta todas las imágenes adicionales al principio
+            $(".proyecto-imagenes").hide();
+    
+            // Agrega un controlador de clic para los botones de mostrar/ocultar
+            $(".mostrar-imagen").click(function() {
+                // Encuentra la imagen adicional asociada a este botón
+                var imagenAdicional = $(this).parent().next(".proyecto-imagenes");
+                
+                // Alternar la visibilidad de la imagen adicional
+                imagenAdicional.toggle();
+            });
+        });
+    </script>
 
 </body>
 

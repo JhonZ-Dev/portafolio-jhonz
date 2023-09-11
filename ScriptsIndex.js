@@ -43,3 +43,10 @@ function efectoHabilidades(){
 window.onscroll=function(){
     efectoHabilidades();
 }
+
+function mostrar(){
+    document.getElementById('im').style.display='block';
+}
+
+
+
