@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/portafolio.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!-- Seccion Inicio -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JhonZ</a>
+
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI </a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTAME</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOculatarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </header>
+    </div>
+
+
+    <!-- Seccion para el proyecto new plast -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>New Plast Movil</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" name="" id="" placeholder="New Plast Móvil" readonly>
+                    <input type="text" name="" id="" placeholder="Encargado: Jhon Zambrano" readonly>
+                    <input type="text" name="" id="" placeholder="Kotlin" readonly>
+                    <input type="text" name="" id="" placeholder="Andorid Studio" readonly>
+                    <textarea  readonly ="" id="" cols="30" rows="11" placeholder="Mensaje">La aplicación está destinada a concentizar a los usuarios al cuidado del medio ambiente, con esta aplicación el usuario podrá ir reciclando botellas donde los usuarios al completar un numero específico de botellas podrá reclamar un premio, siendos estos como ordenes de compras, pasajes gratis, entre otros. Los datos se encuentran cifrado con el método de encriptación SHA-256. Finalmente, el o los administradores podran llevar un registro usando la aplicación web intercontando la aplicación móvil con la web a través de APIs</textarea>
+                   
+    
+                </div>
+    
+                <!-- Mapa  -->
+                <div class="col">
+                    <img src="img/v.jpg" alt="">
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <!-- La aplicación New Plast cuenta con un login como interfaz principal donde el usuario podrá registrarse en el caso que no tenga una cuenta, si ya tieen una cuenta podrá iniciar sesión correctamente. Sus datos se guardan en una base de datos SQLite usando el método de encriptación AES-256 siendo este el más fuerte en la actualidad. -->
+</body>
+</html>
