@@ -14,6 +14,7 @@ function mostrarOculatarMenu(){
     }
 
 }
+
 function seleccionar(){
     //se oculta cuando eligue una opcion
     document.getElementById("nav").classList="";
